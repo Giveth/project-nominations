@@ -2,6 +2,6 @@
     "org": "Giveth",
     "repo": "project-nominations",
     "tokenAddress": "0xffbabeb49be77e5254333d5fdff72920b989425f",
-    "votingMethod": "STANDARD",
+    "votingMethod": "Standard voting",
     "chainId": 100
 }
