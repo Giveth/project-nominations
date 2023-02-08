@@ -1,9 +1,25 @@
 {
-    "org": "Giveth",
-    "repo": "project-nominations",
-    "tokenAddress": "0xffbabeb49be77e5254333d5fdff72920b989425f",
-    "votingMethod": "Standard voting",
-    "chainId": 100,
-    "getTokenMessage": "Get gGIV by wrapping your GIV",
-    "getTokenLink": "https://gardens.1hive.org/#/xdai/garden/0xb25f0ee2d26461e2b5b3d3ddafe197a0da677b98"
+	"method": "QUADRATIC",
+	"strategy": [
+		{
+		"name": "erc20-balance-of",
+		"params": {
+			"address": "0xfFBAbEb49be77E5254333d5fdfF72920B989425f",
+			"symbol": "gGIV",
+			"decimals": 18
+		}
+	},
+		{
+		"name": "erc20-balance-of",
+		"params": {
+			"address": "0x4f4F9b8D5B4d0Dc10506e5551B0513B61fD59e75",
+			"symbol": "GIV",
+			"decimals": 18
+		}
+	}
+                ],
+	"chainId": 100,
+	"labels": [
+    "enhancement"
+  ]
 }
